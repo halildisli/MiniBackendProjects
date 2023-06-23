@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS-Projects\\Examples\\JwtProject\\JwtProject\\JwtProject.csproj": {}
+    "D:\\GitHubProjects\\MiniBackendProjects\\JwtProject\\JwtProject\\JwtProject.csproj": {}
   },
   "projects": {
-    "D:\\VS-Projects\\Examples\\JwtProject\\JwtProject\\JwtProject.csproj": {
+    "D:\\GitHubProjects\\MiniBackendProjects\\JwtProject\\JwtProject\\JwtProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS-Projects\\Examples\\JwtProject\\JwtProject\\JwtProject.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\MiniBackendProjects\\JwtProject\\JwtProject\\JwtProject.csproj",
         "projectName": "JwtProject",
-        "projectPath": "D:\\VS-Projects\\Examples\\JwtProject\\JwtProject\\JwtProject.csproj",
+        "projectPath": "D:\\GitHubProjects\\MiniBackendProjects\\JwtProject\\JwtProject\\JwtProject.csproj",
         "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-        "outputPath": "D:\\VS-Projects\\Examples\\JwtProject\\JwtProject\\obj\\",
+        "outputPath": "D:\\GitHubProjects\\MiniBackendProjects\\JwtProject\\JwtProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.19, )"
@@ -54,9 +58,19 @@
               "target": "Package",
               "version": "[6.0.19, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.31.0, )"
             }
           },
           "imports": [

@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\JwtProject",
+    "\\JwtProject\\Context",
+    "\\JwtProject\\Extensions"
+  ],
+  "SelectedNode": "\\JwtProject\\Context\\JwtDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}
